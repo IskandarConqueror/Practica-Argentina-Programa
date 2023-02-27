@@ -1,0 +1,30 @@
+* {
+    color: aqua;
+    box-sizing: border-box;
+}
+/*El asterisco, si bien marca todo el sistema de cascada aplica los cambios a lo que sigue y esto denota especifidad*/
+p, span {
+    color: red;
+    width: 3000px;
+}
+/*Esto es un comentario en CSS*/
+
+/*Practica de cajas*/
+
+#caja{
+     font-family: 'Roboto', sans-serif;
+     color: blue;
+     padding: 5px;
+     margin: 30px;
+     border: 2px solid black;
+     font-weight: bold;
+}
+
+/*Practica de @Mediaquery*/
+
+@media only screen and (max-width: 680px){
+    body {
+        background-color: aqua;
+    }
+/*Este media indica que cualquier pantalla que pase 680px tendra un fondo de color aqua, pero los que no lo tengan se vera diferente.*/
+}
